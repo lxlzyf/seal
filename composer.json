@@ -1,0 +1,20 @@
+{
+    "name": "houjit/seal",
+    "type": "l",
+    "require": {
+        "php": "7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuloujun",
+            "email": "447107108@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "houjit\\": "src/"
+        }
+    }
+}
