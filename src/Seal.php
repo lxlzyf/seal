@@ -4,7 +4,7 @@
  * @author houjit.com
  * @create on 10:03 2019-01-07
  * @example:
- * $seal = new circleSeal('你我他坐站走东西南北中',75,6,24,0,0,16,40);
+ * $seal = new circleSeal('电子印章名称',75,6,24,0,0,16,40);
  * $seal->doImg();
  */
 namespace houjit\seal;
@@ -32,8 +32,6 @@ class circleSeal {
     private  $sealNum;    //数字
     private  $sealName;    //章名字
     private  $yheight; //字符的y坐标;
-
-
 
     //构造方法
     public function __construct($str ='',$num = '',$rad = 100, $rmwidth = 6, $strad = 28, $stang = 0, $crang = 0, $fsize = 16, $inrad =0){
