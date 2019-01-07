@@ -7,6 +7,7 @@
  * $seal = new circleSeal('你我他坐站走东西南北中',75,6,24,0,0,16,40);
  * $seal->doImg();
  */
+namespace houjit\seal;
 
 class circleSeal {
     private $sealString;  //印章字符
